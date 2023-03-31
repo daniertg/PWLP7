@@ -13,8 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        //
         Schema::table('mahasiswa', function (Blueprint $table) {
+            //
             $table->string('tanggal_lahir');
         });
     }
@@ -26,6 +26,8 @@ return new class extends Migration
      */
     public function down()
     {
-        //
+        Schema::table('mahasiswa', function (Blueprint $table) {
+            //
+        });
     }
 };

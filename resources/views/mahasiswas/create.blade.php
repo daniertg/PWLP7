@@ -41,8 +41,15 @@ nput.<br><br>
  </div>
  <div class="form-group">
  <label for="No_Handphone">No_Handphone</label>
-
  <input type="No_Handphone" name="No_Handphone" class="formcontrol" id="No_Handphone" aria-describedby="No_Handphone" >
+ </div>
+ <div class="form-group">
+ <label for="email">Email</label>
+ <input type="email" name="email" class="formcontrol" id="email" ariadescribedby="email" >
+ </div>
+ <div class="form-group">
+ <label for="tanggal_lahir">Tanggal Lahir</label>
+ <input type="tanggal_lahir" name="tanggal_lahir" class="formcontrol" id="tanggal_lahir"  ariadescribedby="tanggal_lahir" >
  </div>
  <button type="submit" class="btn btn-primary">Submit</button>
  </form>
